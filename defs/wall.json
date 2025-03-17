@@ -1,0 +1,20 @@
+{
+  "name": "Wall",
+  "type": "static",
+  "description": "A wall segment for the maze",
+  "friction": {
+    "collision": 0.5,
+    "linear": 0.3,
+    "rotational": 0.3
+  },
+  "shape": [
+      { "x": 0, "y": -2 },
+      { "x": 50, "y": -2 },
+      { "x": 50, "y": 2 },
+      { "x": 0, "y": 2 }
+  ],
+  "color": "gray",
+  "mass":1,
+  "sensors": [],
+  "controller": "lib/wall.so"
+}

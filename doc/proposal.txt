@@ -1,0 +1,5 @@
+Hi, Professor. I'd like to share my idea for my final project and get your feedback.
+In my project, a robot is placed in a grid-based maze. There are some machine parts and obstacles.
+The robot moves only in straight lines until hitting an obstacles;
+It cannot go back on its own path;
+The goal is to collect all scattered machine parts in one continuous motion and reach the exit.

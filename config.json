@@ -1,0 +1,78 @@
+{
+
+    "name": "RoboTrek",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [
+        {
+            "label": "Start",
+            "name": "start",
+            "style": { "fill": "green", "stroke": "black" }
+        },
+        {
+            "label": "Previous level",
+            "name": "loadn",
+            "style": { "fill": "green", "stroke": "black" }
+        },
+        {
+            "label": "Next level",
+            "name": "load",
+            "style": { "fill": "green", "stroke": "black" }
+        },
+        {
+            "label": "Reload",
+            "name": "reset",
+            "style": { "fill": "yellow", "stroke": "black" }
+        }
+    ],
+
+    "agents": [
+        {
+            "definition": "defs/robot.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/board.json",
+            "style": { "fill": "white", "stroke": "green"},
+            "position": { "x": 0, "y": -100, "theta": 0 }
+        }
+    ],
+    "references" :[
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": { "x": 100, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/goal.json",
+            "style": { "fill": "green", "stroke": "0"},
+            "position": { "x": 200, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/parts.json",
+            "style": { "fill": "orange", "stroke": "none" },
+            "position": { "x": 50, "y": 100, "theta": 0 }
+        },
+        {
+            "definition": "defs/wall.json",
+            "style": { "fill": "black", "stroke": "none" },
+            "position": { "x": 50, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/path.json",
+            "style": { "fill": "black", "stroke": "none" },
+            "position": { "x": 50, "y": 0, "theta": 0 }
+        }
+    ],
+
+    "statics": [
+
+    ]
+
+}

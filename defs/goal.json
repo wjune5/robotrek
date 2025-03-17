@@ -1,0 +1,19 @@
+{
+    "name": "Goal",
+    "type": "static",
+    "description": "Replace this string with a description",
+    "shape": [
+      { "x": -20, "y": 20 },
+      { "x": 20, "y": 20 },
+      { "x": 20, "y": -20 },
+      { "x": -20, "y": -20 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/goal.so"
+}
