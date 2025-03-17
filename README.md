@@ -11,10 +11,13 @@ RoboTrek is a grid-based puzzle game where the player controls a robot to collec
 - **Different levels** – modify the maze layout for different challenges.
 ### Challenges
 - Straight-line movement
+
 Since movement is based on `(x, y)`, split the grid into cells, using rows and columns to control the robot and check its neighbour cells' situation.
 - No backtracking
+  
 Maintain a visited cell tracker( a `vector`), and check each move doesn't revisit.
 - Load many user-created maps
+  
 Store different layouts in a JSON file, and use different signs to represent different agents. So I can use a JSON parser to read maps.
 
 ## How to play
@@ -34,7 +37,7 @@ See <a href="https://github.com/klavinslab/enviro">here</a> to install enviro fi
 ### Build the project
 1. Clone this repo
 ```sh
-git clone
+git clone https://github.com/wjune5/robotrek
 ```
 2. Make the file
 Go to the project directory, and enter `make`
